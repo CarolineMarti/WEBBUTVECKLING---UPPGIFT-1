@@ -1,0 +1,78 @@
+<!--Tells the browser that the type of content is HTML-->
+<!DOCTYPE html>
+<!--The root of the HTML structure with attribute setting the language to english-->
+<html lang="en">
+    <!--Contains all metadata that defines document title,styles and scripts -->
+<head>
+    <!--Charset attribute sets the first ascii encoding standard (UTF-8) -->
+    <meta charset="UTF-8">
+    <!--Is used to set what version of internet explorer should be rendered as.This is set to highest most available mode-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <!--This is telling the browser what scaling and dimensions the viewport should have-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Name of the page in the tab-->
+    <title>Work</title>
+    <!--Connects css to html-->
+    <link rel="stylesheet" href="./styles.css" >
+</head>
+<!--This contains all the content of the HTML document, such as headings, paragraphs,images,hyperlinks etc-->
+<body>
+    <!--This container holds all content and sets background color and size-->
+    <div class="background">
+         <!--This container holds links to socialmedia.
+              Uses flexbox to set spacing between the links and the hight of the container.
+              Has position absolute-->
+        <div class="socialmedia-container">
+            <a href="https://www.instagram.com/carolinemartinussen_/">
+                <!-- This img tag has a class that is setting the size of the instagram image-->
+                <img class="socialmedia-icon" src="instagram 1.svg" />
+            </a>
+            <a href="https://www.linkedin.com/in/caroline-martinussen-819a98226/">
+                <!-- This img tag has a class that is setting the size of the linkedin image-->
+                <img class="socialmedia-icon" src="linkedin.svg" />
+            </a>
+        </div>
+         <!--This container holds the main content. Has its own background-color. Has position absolute-->
+        <div class="semi-background">
+            <!-- This container holds the logo and navigation bar for the various pages on the website.Uses flexbox-->
+            <nav class="navbar">
+                <!-- This container holds the logo-->
+                <div class="nav-logo"><img src="Group10.svg"></div>
+                <!-- This container holds the links and uses flexbox with space around the links-->
+                <div class="nav-links">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <!--This navigation link is selected and has its own styling-->
+                    <a class="nav-link selected-link" href="work.html">Work</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="about.html">About</a>
+                </div>
+            </nav>
+            <!--This container holds the work-picture. Sets size to the picture and has position relative-->
+            <div class="work-pic">
+                <!-- This tag has the class image-fit to set max width and max height to its parent container-->
+                <img class="image-fit" src="interaksjonsdesign.png">
+            </div>
+
+            <!--This container holds the box for the text.Sets the size and color of the box. Has position absolute -->
+            <div class="text-box-work"></div>
+            <!--This container holds the text.Sets the size,font and color of the text.Has position absolute -->
+                    <div class="text-work"> 
+                    
+                <h1>
+                    The first project in the course Interaction design. 
+                    This project introduced me to Figma. 
+                    In addition to learning what interaction design was and 
+                    how to use new programs, 
+                    I was fortunate enough to work with a classmate on the project 
+                    so I was able to learn collaborative skills. 
+                </h1>
+                <!--This container holds the hyperlynk button to the prototype in Figma. -->
+
+                <a href="https://www.figma.com/proto/K0xFACAk3Rpqk1qMivZfE3/Untitled?page-id=0%3A1&node-id=2%3A63&viewport=241%2C48%2C0.2&scaling=scale-down&starting-point-node-id=2%3A63&show-proto-sidebar=1" 
+                class="button">Prototype</a>
+                
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!--Tells the browser that the type of content is HTML-->
+<!DOCTYPE html>
+<!--The root of the HTML structure with attribute setting the language to english-->
+<html lang="en">
+<!--Contains all metadata that defines document title,styles and scripts -->
+
+<head>
+    <!--Charset attribute sets the first ascii encoding standard (UTF-8) -->
+    <meta charset="UTF-8" />
+    <!--Is used to set what version of internet explorer should be rendered as.This is set to highest most available mode-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--This is telling the browser what scaling and dimensions the viewport should have-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Name of the page in the tab-->
+    <title>Caroline Martinussen</title>
+    <!--Connects css to html-->
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<!-- 
+      Author: Caroline Martinussen
+      Date: Spring 2022
+      Course: Webbutveckling 
+
+      Summary of File:
+
+      This file contains code for a portfolio website. On the website, 
+      visitors can read about me, see my school assignments and private projects. 
+      I can also be contacted  via the website.The file is divided into 4 different 
+      parts, Index.html (Home), About.htlm, Work.html, Contact.html. 
+      There is one css file that contains the styling of the entire site and another css 
+      file that contains the styling of a contact form.
+    -->
+
+<!--This contains all the content of the HTML document, such as headings, paragraphs,images,hyperlinks etc-->
+
+<body>
+    <!--This container holds all content and sets background color and size-->
+    <div class="background">
+        <!--This container holds links to socialmedia.
+              Uses flexbox to set spacing between the links and the hight of the container.
+              Has position absolute-->
+        <div class="socialmedia-container">
+            <a href="https://www.instagram.com/carolinemartinussen_/">
+                <!-- This img tag has a class that is setting the size of the instagram image-->
+                <img class="socialmedia-icon" src="instagram 1.svg" />
+            </a>
+            <a href="https://www.linkedin.com/in/caroline-martinussen-819a98226/">
+                <!-- This img tag has a class that is setting the size of the linkedin image-->
+                <img class="socialmedia-icon" src="icon2.svg" />
+            </a>
+        </div>
+        <!--This container holds the main content. Has its own background-color. Has position absolute-->
+        <div class="semi-background">
+            <!-- This container holds the logo and navigation bar for the various pages on the website.Uses flexbox-->
+            <nav class="navbar">
+                <!-- This container holds the logo-->
+                <div><img src="Group10.svg" /></div>
+                <!-- This container holds the links and uses flexbox with space around the links-->
+                <div class="nav-links">
+                    <!--This navigation link is selected and has its own styling-->
+                    <a class="nav-link selected-link" href="index.html">Home</a>
+                    <a class="nav-link" href="work.html">Work</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="about.html">About</a>
+                </div>
+            </nav>
+            <!--This container holds the profil-picture. Sets size to the picture and has position absolute-->
+            <div class="profile-pic">
+                <!-- This tag has the class image-fit to set max width and max height to its parent container-->
+                <img class="image-fit" src="Caroline-2.JPG" />
+            </div>
+            <!-- This container holds the header for the welcoming text-->
+            <div class="header">
+                <h1>Welcome to Caroline`s Portfolio</h1>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

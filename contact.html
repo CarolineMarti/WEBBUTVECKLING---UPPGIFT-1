@@ -1,0 +1,75 @@
+<!--Tells the browser that the type of content is HTML-->
+<!DOCTYPE html>
+<!--The root of the HTML structure with attribute setting the language to english-->
+<html lang="en">
+<!--Contains all metadata that defines document title,styles and scripts -->
+
+<head>
+    <!--Charset attribute sets the first ascii encoding standard (UTF-8) -->
+    <meta charset="UTF-8" />
+    <!--Is used to set what version of internet explorer should be rendered as.This is set to highest most available mode-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--This is telling the browser what scaling and dimensions the viewport should have-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Name of the page in the tab-->
+    <title>Contact</title>
+    <!--Connects css to html-->
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./contact-form.css" />
+</head>
+
+<body>
+    <!--This container holds all content and sets background color and size-->
+    <div class="background">
+        <!--This container holds links to socialmedia.
+              Uses flexbox to set spacing between the links and the hight of the container.
+              Has position absolute-->
+        <div class="socialmedia-container">
+            <a href="https://www.instagram.com/carolinemartinussen_/"><img class="socialmedia-icon"
+                    src="instagram 1.svg" /></a>
+            <a href="https://www.linkedin.com/in/caroline-martinussen-819a98226/"><img class="socialmedia-icon"
+                    src="linkedin.svg" /></a>
+        </div>
+        <!--This container holds the main content. Has its own background-color. Has position absolute-->
+        <div class="semi-background">
+            <!-- This container holds the logo and navigation bar for the various pages on the website.Uses flexbox-->
+            <nav class="navbar">
+                <!-- This container holds the logo-->
+                <div class="nav-logo"><img src="Group10.svg" /></div>
+                <!-- This container holds the links and uses flexbox with space around the links-->
+                <div class="nav-links">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="work.html">Work</a>
+                    <!--This navigation link is selected and has its own styling-->
+                    <a class="nav-link selected-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="about.html">About</a>
+                </div>
+            </nav>
+            <!--This container holds the box for the text.Sets the size and the color of the box.Has position absolute-->
+            <div class="text-box-contact">
+                <!--This container holds the contact form. Sets size,links and color for the form-->
+                <form action="https://formsubmit.co/carolinemartinussen91@gmail.com" method="POST">
+                    <!--This container holds multiple input fields for the form and styling for the row with content-->
+                    <div class="row">
+                        <!-- This container is styled to have a specific style and size and behaviour-->
+                        <div class="input-field col">
+                            <input id="email" type="email" name="email" class="validate" placeholder="Email Address"
+                                required />
+                            <label for="email">Email Adress</label>
+                        </div>
+                        <!-- This container is styled to have a specific style and size and behaviour-->
+                        <div class="input-field col">
+                            <input id="message" type="text" name="message" class="validate"
+                                placeholder="Write your message here" required />
+                            <label for="message">Message</label>
+                        </div>
+                        <!--This container holds the size,font and color of the button-->
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
