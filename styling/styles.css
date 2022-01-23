@@ -110,22 +110,6 @@ body {
     background: white;
 }
 
-/*.contact-info {
-  position: absolute;
-  width: 700px;
-  height: 140px;
-  left: 270px;
-  top: 450px;
-
-  font-family: roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 41px;
-
-  color:black; 
-}*/
-
 .work-pic {
     position: relative;
     width: 432px;
@@ -324,28 +308,3 @@ textarea {
     width: 100px;
     height: 70px;
 }
-
-/*a.button {
-        display: inline-block;
-        padding: 15px 25px;
-        right: 250px;
-        font-size: 24px;
-        cursor: pointer;
-        text-align: center;
-        text-decoration: none;
-        outline: none;
-        color: #fff;
-        background-color:#787B70;
-        border: none;
-        border-radius: 15px;
-        box-shadow: 0 9px #999;
-        position:absolute;
-      }
-      
-      a.button:hover {background-color: #ABAFA0;}
-      
-      a.button:active {
-        background-color:#ABAFA0;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-      } */
