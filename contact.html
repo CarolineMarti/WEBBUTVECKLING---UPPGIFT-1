@@ -14,6 +14,7 @@
     <!--Name of the page in the tab-->
     <title>Contact</title>
     <!--Connects css to html-->
+    <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styling/styles.css" />
     <link rel="stylesheet" href="./styling/contact-form.css" />
 </head>
@@ -48,19 +49,24 @@
             <!--This container holds the box for the text.Sets the size and the color of the box.Has position absolute-->
             <div class="text-box-contact">
                 <!--This container holds the contact form. Sets size,links and color for the form-->
-                <form action="https://formsubmit.co/carolinemartinussen91@gmail.com" method="POST">
+                <form class="form-container" action="https://formsubmit.co/carolinemartinussen91@gmail.com" method="POST">
                     <!--This container holds multiple input fields for the form and styling for the row with content-->
                     <div class="row">
                         <!-- This container is styled to have a specific style and size and behaviour-->
                         <div class="input-field col">
-                            <input id="email" type="email" name="email" class="validate" placeholder="Email Address"
-                                required />
-                            <label for="email">Email Adress</label>
+                            <input id="name" type="text" name="name" class="" required />
+                            <label for="name">Name</label>
                         </div>
                         <!-- This container is styled to have a specific style and size and behaviour-->
                         <div class="input-field col">
-                            <input id="message" type="text" name="message" class="validate"
-                                placeholder="Write your message here" required />
+                            <input id="email" type="text" name="email" class="" required />
+                            <label for="email">Email Adress</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- This container is styled to have a specific style and size and behaviour-->
+                        <div class="input-field col">
+                            <textarea id="message" type="text" name="message" required></textarea>
                             <label for="message">Message</label>
                         </div>
                         <!--This container holds the size,font and color of the button-->
@@ -71,5 +77,6 @@
         </div>
     </div>
 </body>
+<script src="./javascript.js"></script>
 
 </html>
