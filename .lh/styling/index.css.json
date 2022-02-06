@@ -1,0 +1,42 @@
+{
+    "sourceFile": "styling/index.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1644183914481,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644184017738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,4 @@\n-\n-\n .profile-pic {\n     position: absolute;\n     width: 350px;\n     height: 600px;\n@@ -8,5 +6,24 @@\n     top: 120px;\n \n     /* background: url(0BEF8EAD-E3A8-48E9-A432-49B0476B3662.jpg); */\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n+}\n+\n+\n+.welcome-header {\n+    position: absolute;\n+    width: 700px;\n+    height: 400px;\n+    left: 191px;\n+    top: 390px;\n+\n+    font-family: \"Six Caps\", \"Lora\", serif;\n+    font-style: normal;\n+    font-weight: 800;\n+    font-size: 40px;\n+    line-height: 84px;\n+\n+    color: #ffffff;\n+\n+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644184058338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,8 @@\n     /* background: url(0BEF8EAD-E3A8-48E9-A432-49B0476B3662.jpg); */\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n }\n \n-\n .welcome-header {\n     position: absolute;\n     width: 700px;\n     height: 400px;\n"
+                },
+                {
+                    "date": 1644184072025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,5 +24,9 @@\n \n     color: #ffffff;\n \n     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\n+}\n+\n+@media (max-width: 900px) {\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644184079637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,5 +28,24 @@\n }\n \n @media (max-width: 900px) {\n     \n+    .welcome-header {\n+        position: absolute;\n+        left: 6%;\n+        top: 50%;\n+\n+        /* position: unset; */\n+        width: 700px;\n+        height: 400px;\n+\n+        font-family: \"Six Caps\", Arial, Helvetica, sans-serif, sans-serif;\n+        font-style: normal;\n+        font-weight: 400;\n+        font-size: 60px;\n+        line-height: 126px;\n+\n+        color: #ffffff;\n+\n+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644184101991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,9 @@\n \n         /* background: url(0BEF8EAD-E3A8-48E9-A432-49B0476B3662.jpg); */\n         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n     }\n+    \n     .welcome-header {\n         position: absolute;\n         left: 6%;\n         top: 50%;\n"
+                },
+                {
+                    "date": 1644186411633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,10 +51,10 @@\n         font-style: normal;\n         font-weight: 400;\n         font-size: 60px;\n         line-height: 126px;\n-    \n \n+\n         color: #ffffff;\n \n         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\n     }\n"
+                }
+            ],
+            "date": 1644183914481,
+            "name": "Commit-0",
+            "content": "\n\n.profile-pic {\n    position: absolute;\n    width: 350px;\n    height: 600px;\n    left: 818px;\n    top: 120px;\n\n    /* background: url(0BEF8EAD-E3A8-48E9-A432-49B0476B3662.jpg); */\n    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n}"
+        }
+    ]
+}

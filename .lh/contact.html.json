@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1644150120528,
@@ -32,6 +32,10 @@
                 {
                     "date": 1644160465841,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n                             </div>\n                         </div>\n                         <div class=\"flex-row\">\n                             <!--This container holds the size,font and color of the button-->\n-                            <button type=\"button\" class=\"\">Send</button>\n+                            <button type=\"button\" class=\"button-ripple\">Send</button>\n                         </div>\n                     </div>\n                 </form>\n             </div>\n"
+                },
+                {
+                    "date": 1644187385184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,13 +57,14 @@\n                             </span></li>\n                         <li><a class=\"nav-link\" href=\"work.html\">Work</a><span class=\"material-icons-outlined\">\n                                 navigate_next\n                             </span></li>\n-                        <li><a class=\"nav-link selected-link\" href=\"contact.html\">Contact</a><span class=\"material-icons-outlined\">\n-                            navigate_next\n+                        <li><a class=\"nav-link selected-link\" href=\"contact.html\">Contact</a><span\n+                                class=\"material-icons-outlined\">\n+                                navigate_next\n                             </span></li>\n                         <li><a class=\"nav-link\" href=\"about.html\">About</a><span class=\"material-icons-outlined\">\n-                            navigate_next\n+                                navigate_next\n                             </span></li>\n                     </ul>\n                 </div>\n             </nav>\n"
                 }
             ],
             "date": 1644150120528,

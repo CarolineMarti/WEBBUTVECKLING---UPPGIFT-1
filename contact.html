@@ -14,9 +14,10 @@
     <!--Name of the page in the tab-->
     <title>Contact</title>
     <!--Connects css to html-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styling/styles.css" />
-    <link rel="stylesheet" href="./styling/contact-form.css" />
+    <link rel="stylesheet" href="./styling/contact.css" />
 </head>
 
 <body>
@@ -32,11 +33,50 @@
             <nav class="navbar">
                 <!-- This container holds the links and uses flexbox with space around the links-->
                 <div class="nav-links">
-                    <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link" href="work.html">Work</a>
                     <!--This navigation link is selected and has its own styling-->
-                    <a class="nav-link selected-link" href="contact.html">Contact</a>
-                    <a class="nav-link" href="about.html">About</a>
+                    <ul class="not-mobile">
+                        <li><a class="nav-link selected-link" href="index.html">Home</a></li>
+                        <li><a class="nav-link" href="work.html">Work</a></li>
+                        <li><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li><a class="nav-link" href="about.html">About</a></li>
+                    </ul>
+
+                    <button onclick="openSideNav()" type="button"
+                        class="btn btn-flat button-ripple flex-center only-mobile">
+                        <span class="material-icons md-36">menu</span>
+                    </button>
+                </div>
+                <div class="nav-drawer">
+                    <button onclick="closeSideNav()" type="button" class="btn btn-flat button-ripple flex-center">
+                        <span class="material-icons md-36">close</span>
+                    </button>
+                    <!--This navigation link is selected and has its own styling-->
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="index.html">Home</a>
+                            <span>
+                                <img src="./img/navigate_next_black_24dp.svg">
+                            </span>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="work.html">Work</a>
+                            <span>
+                                <img src="./img/navigate_next_black_24dp.svg">
+                            </span>
+                        </li>
+                        <li>
+                            <a class="nav-link selected-link" href="contact.html">Contact</a>
+                            <span>
+                                <img src="./img/navigate_next_black_24dp.svg">
+                            </span>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="about.html">About</a>
+                            <span>
+                                <img src="./img/navigate_next_black_24dp.svg">
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </nav>
             <div class="content-flex">

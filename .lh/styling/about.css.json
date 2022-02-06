@@ -1,0 +1,66 @@
+{
+    "sourceFile": "styling/about.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1644183724488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644183734679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,5 +36,8 @@\n     width: 50%;\n     height: 70%;\n     left: 60%;\n     top: 30%;\n-}\n\\ No newline at end of file\n+}\n+\n+@media (max-width: 900px) {\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644183753509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,5 +39,25 @@\n     top: 30%;\n }\n \n @media (max-width: 900px) {\n-    \n\\ No newline at end of file\n+    .text-box-about {\n+        position: absolute;\n+        width: 68%;\n+        height: 70%;\n+        left: 1%;\n+        top: 4%;\n+        z-index: 9;\n+        box-sizing: border-box;\n+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n+    \n+        background: rgba(255, 252, 252, 0.9);\n+    }\n+    \n+    .about-pic {\n+        position: absolute;\n+        width: 50%;\n+        height: 70%;\n+        left: 38%;\n+        top: 38%;\n+    }\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644187002538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,5 +59,27 @@\n         height: 70%;\n         left: 38%;\n         top: 38%;\n     }\n+}\n+@media (max-width: 900px) {\n+    .text-box-about {\n+        position: absolute;\n+        width: 68%;\n+        height: 70%;\n+        left: 1%;\n+        top: 4%;\n+        z-index: 9;\n+        box-sizing: border-box;\n+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n+    \n+        background: rgba(255, 252, 252, 0.9);\n+    }\n+    \n+    .about-pic {\n+        position: absolute;\n+        width: 50%;\n+        height: 70%;\n+        left: 38%;\n+        top: 38%;\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644187010087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,10 @@\n         left: 38%;\n         top: 38%;\n     }\n }\n-@media (max-width: 900px) {\n+\n+@media (max-width: 601px) {\n     .text-box-about {\n         position: absolute;\n         width: 68%;\n         height: 70%;\n"
+                },
+                {
+                    "date": 1644187018695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,25 +62,9 @@\n     }\n }\n \n @media (max-width: 601px) {\n-    .text-box-about {\n-        position: absolute;\n-        width: 68%;\n-        height: 70%;\n-        left: 1%;\n-        top: 4%;\n-        z-index: 9;\n-        box-sizing: border-box;\n-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n-    \n-        background: rgba(255, 252, 252, 0.9);\n-    }\n-    \n     .about-pic {\n-        position: absolute;\n-        width: 50%;\n-        height: 70%;\n-        left: 38%;\n-        top: 38%;\n+        left: 46%;\n+        top: 42%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644187054298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,5 +66,19 @@\n     .about-pic {\n         left: 46%;\n         top: 42%;\n     }\n+\n+    .about-text {\n+        position: absolute;\n+        left: 64px;\n+        top: 16px;\n+        width: 80%;\n+        height: 96%;\n+        font-family: \"Roboto\", \"Lora\", serif;\n+        font-style: normal;\n+        font-weight: 200;\n+        font-size: 15px;\n+        line-height: 29px;\n+        color: black;\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644187060958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,6 @@\n         height: 96%;\n         font-family: \"Roboto\", \"Lora\", serif;\n         font-style: normal;\n         font-weight: 200;\n-        font-size: 15px;\n-        line-height: 29px;\n-        color: black;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644187143871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,13 +69,16 @@\n     }\n \n     .about-text {\n         position: absolute;\n-        left: 64px;\n-        top: 16px;\n-        width: 80%;\n-        height: 96%;\n-        font-family: \"Roboto\", \"Lora\", serif;\n-        font-style: normal;\n-        font-weight: 200;\n+    left: 16px;\n+    top: 5px;\n+    width: 74%;\n+    height: 96%;\n+    font-family: \"Roboto\", \"Lora\", serif;\n+    font-style: normal;\n+    font-weight: 800;\n+    font-size: 10px;\n+    line-height: 16px;\n+    color: black;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644187149394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,16 +69,16 @@\n     }\n \n     .about-text {\n         position: absolute;\n-    left: 16px;\n-    top: 5px;\n-    width: 74%;\n-    height: 96%;\n-    font-family: \"Roboto\", \"Lora\", serif;\n-    font-style: normal;\n-    font-weight: 800;\n-    font-size: 10px;\n-    line-height: 16px;\n-    color: black;\n+        left: 16px;\n+        top: 5px;\n+        width: 74%;\n+        height: 96%;\n+        font-family: \"Roboto\", \"Lora\", serif;\n+        font-style: normal;\n+        font-weight: 800;\n+        font-size: 10px;\n+        line-height: 16px;\n+        color: black;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644187200582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,5 +80,17 @@\n         font-size: 10px;\n         line-height: 16px;\n         color: black;\n     }\n+\n+    .text-box-about {\n+        position: absolute;\n+        width: 73%;\n+        height: 70%;\n+        left: 1%;\n+        top: 4%;\n+        z-index: 9;\n+        box-sizing: border-box;\n+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n+        background: rgba(255, 252, 252, 0.9);\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644187207114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n         width: 74%;\n         height: 96%;\n         font-family: \"Roboto\", \"Lora\", serif;\n         font-style: normal;\n-        font-weight: 800;\n+        font-weight: 400;\n         font-size: 10px;\n         line-height: 16px;\n         color: black;\n     }\n"
+                },
+                {
+                    "date": 1644187258323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,13 +71,13 @@\n     .about-text {\n         position: absolute;\n         left: 16px;\n         top: 5px;\n-        width: 74%;\n+        width: 87%;\n         height: 96%;\n         font-family: \"Roboto\", \"Lora\", serif;\n         font-style: normal;\n-        font-weight: 400;\n+        font-weight: 200;\n         font-size: 10px;\n         line-height: 16px;\n         color: black;\n     }\n"
+                }
+            ],
+            "date": 1644183724488,
+            "name": "Commit-0",
+            "content": "\n.text-box-about {\n    position: absolute;\n    width: 68%;\n    height: 70%;\n    left: 1%;\n    top: 4%;\n    z-index: 9;\n    box-sizing: border-box;\n    display: inline-block;\n    overflow: scroll;\n    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n\n    background: rgba(255, 252, 252, 0.9);\n}\n\n\n.about-text {\n    position: absolute;\n    left: 64px;\n    top: 16px;\n    width: 80%;\n    height: 96%;\n\n    font-family: \"Roboto\", \"Lora\", serif;\n    font-style: normal;\n    font-weight: 800;\n    font-size: 15px;\n    line-height: 29px;\n\n    color: black;\n}\n\n.about-pic {\n    position: absolute;\n    width: 50%;\n    height: 70%;\n    left: 60%;\n    top: 30%;\n}"
+        }
+    ]
+}

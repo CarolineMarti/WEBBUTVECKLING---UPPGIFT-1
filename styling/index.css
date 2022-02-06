@@ -1,0 +1,88 @@
+.profile-pic {
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    left: 818px;
+    top: 120px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.welcome-header {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    left: 191px;
+    top: 390px;
+
+    font-family: "Six Caps", "Lora", serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 84px;
+
+    color: #ffffff;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 900px) {
+    .profile-pic {
+        position: absolute;
+        left: 46%;
+        top: 24%;
+        width: 350px;
+        height: 600px;
+
+        /* background: url(0BEF8EAD-E3A8-48E9-A432-49B0476B3662.jpg); */
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .welcome-header {
+        position: absolute;
+        left: 6%;
+        top: 50%;
+
+        /* position: unset; */
+        width: 700px;
+        height: 400px;
+
+        font-family: "Six Caps", Arial, Helvetica, sans-serif, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 126px;
+
+        color: #ffffff;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media (max-width: 601px) {
+    .profile-pic {
+        position: absolute;
+        left: 32%;
+        top: 13%;
+        width: 79%;
+        height: 74%;
+        background: url(0BEF8EAD-E3A8-48E9-A432-49B0476B3662.jpg);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .welcome-header {
+        position: absolute;
+        left: 6%;
+        top: 50%;
+        width: 700px;
+        height: 400px;
+        font-family: "Six Caps", Arial, Helvetica, sans-serif, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 126px;
+        color: #ffffff;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+
+}

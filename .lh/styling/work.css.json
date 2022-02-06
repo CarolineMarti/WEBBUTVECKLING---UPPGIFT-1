@@ -1,0 +1,62 @@
+{
+    "sourceFile": "styling/work.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1644183822036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644183841248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,5 +18,9 @@\n     font-size: 160%;\n     line-height: 85%;\n \n     color: black;\n+}\n+\n+@media (max-width: 900px){\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644183849208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,5 +22,22 @@\n }\n \n @media (max-width: 900px){\n     \n+    .text-work {\n+        /* position: absolute;\n+        left: 320px;\n+        top: 400px; */\n+    \n+        width: 77%;\n+        height: 24%;\n+    \n+        font-family: \"Roboto\", \"Open Sans\", sans-serif;\n+        font-style: normal;\n+        font-weight: 200;\n+        font-size: 145%;\n+        line-height: 111%;\n+    \n+        color: black;\n+        /* background: rgba(255, 252, 252, 0.7); */\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644185595611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,8 @@\n     color: black;\n }\n \n @media (max-width: 900px){\n-    \n     .text-work {\n         /* position: absolute;\n         left: 320px;\n         top: 400px; */\n@@ -39,5 +38,7 @@\n     \n         color: black;\n         /* background: rgba(255, 252, 252, 0.7); */\n     }\n-}\n\\ No newline at end of file\n+}\n+\n+@media (max-width: 900px)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644185621062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,11 +22,8 @@\n }\n \n @media (max-width: 900px){\n     .text-work {\n-        /* position: absolute;\n-        left: 320px;\n-        top: 400px; */\n     \n         width: 77%;\n         height: 24%;\n     \n@@ -40,5 +37,7 @@\n         /* background: rgba(255, 252, 252, 0.7); */\n     }\n }\n \n-@media (max-width: 900px)\n\\ No newline at end of file\n+@media (max-width: 900px) {\n+\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644185634338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,8 @@\n }\n \n @media (max-width: 900px){\n     .text-work {\n-    \n         width: 77%;\n         height: 24%;\n     \n         font-family: \"Roboto\", \"Open Sans\", sans-serif;\n@@ -37,7 +36,7 @@\n         /* background: rgba(255, 252, 252, 0.7); */\n     }\n }\n \n-@media (max-width: 900px) {\n+@media (max-width: 601) {\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644185665931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,6 +37,12 @@\n     }\n }\n \n @media (max-width: 601) {\n-\n+    .work-pic {\n+        display: flex;\n+        flex-direction: column;\n+        align-items: center;\n+        width: 50%;\n+        height: 58%;\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644185693948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,13 +36,9 @@\n         /* background: rgba(255, 252, 252, 0.7); */\n     }\n }\n \n-@media (max-width: 601) {\n+@media (max-width: 601px) {\n     .work-pic {\n-        display: flex;\n-        flex-direction: column;\n-        align-items: center;\n-        width: 50%;\n         height: 58%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644185754492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,8 +37,20 @@\n     }\n }\n \n @media (max-width: 601px) {\n+    .text-work {\n+        width: 77%;\n+        height: 24%;\n+        font-family: \"Roboto\", \"Open Sans\", sans-serif;\n+        font-style: normal;\n+        font-weight: 200;\n+        font-size: 14px;\n+        line-height: 111%;\n+        color: black;\n+        /* background: rgba(255, 252, 252, 0.7); */\n+    }\n+    \n     .work-pic {\n         height: 58%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644185761272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,17 +40,14 @@\n @media (max-width: 601px) {\n     .text-work {\n         width: 77%;\n         height: 24%;\n-        font-family: \"Roboto\", \"Open Sans\", sans-serif;\n-        font-style: normal;\n-        font-weight: 200;\n         font-size: 14px;\n         line-height: 111%;\n         color: black;\n         /* background: rgba(255, 252, 252, 0.7); */\n     }\n-    \n+\n     .work-pic {\n         height: 58%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644185779443,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,14 +38,10 @@\n }\n \n @media (max-width: 601px) {\n     .text-work {\n-        width: 77%;\n-        height: 24%;\n         font-size: 14px;\n         line-height: 111%;\n-        color: black;\n-        /* background: rgba(255, 252, 252, 0.7); */\n     }\n \n     .work-pic {\n         height: 58%;\n"
+                },
+                {
+                    "date": 1644185795288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n \n @media (max-width: 601px) {\n     .text-work {\n         font-size: 14px;\n-        line-height: 111%;\n+        line-height: 101%;\n     }\n \n     .work-pic {\n         height: 58%;\n"
+                }
+            ],
+            "date": 1644183822036,
+            "name": "Commit-0",
+            "content": ".work-pic {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n\n    width: 50%;\n    height: 68%;\n}\n\n.text-work {\n\n    width: 60%;\n    height: 28%;\n\n    font-family: \"Roboto\", \"Open Sans\", sans-serif;\n    font-style: normal;\n    font-weight: 200;\n    font-size: 160%;\n    line-height: 85%;\n\n    color: black;\n}"
+        }
+    ]
+}

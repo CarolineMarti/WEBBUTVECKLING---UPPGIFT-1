@@ -1,0 +1,96 @@
+
+.text-box-about {
+    position: absolute;
+    width: 68%;
+    height: 70%;
+    left: 1%;
+    top: 4%;
+    z-index: 9;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: scroll;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    background: rgba(255, 252, 252, 0.9);
+}
+
+
+.about-text {
+    position: absolute;
+    left: 64px;
+    top: 16px;
+    width: 80%;
+    height: 96%;
+
+    font-family: "Roboto", "Lora", serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 29px;
+
+    color: black;
+}
+
+.about-pic {
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    left: 60%;
+    top: 30%;
+}
+
+@media (max-width: 900px) {
+    .text-box-about {
+        position: absolute;
+        width: 68%;
+        height: 70%;
+        left: 1%;
+        top: 4%;
+        z-index: 9;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+        background: rgba(255, 252, 252, 0.9);
+    }
+    
+    .about-pic {
+        position: absolute;
+        width: 50%;
+        height: 70%;
+        left: 38%;
+        top: 38%;
+    }
+}
+
+@media (max-width: 601px) {
+    .about-pic {
+        left: 46%;
+        top: 42%;
+    }
+
+    .about-text {
+        position: absolute;
+        left: 16px;
+        top: 5px;
+        width: 87%;
+        height: 96%;
+        font-family: "Roboto", "Lora", serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 16px;
+        color: black;
+    }
+
+    .text-box-about {
+        position: absolute;
+        width: 73%;
+        height: 70%;
+        left: 1%;
+        top: 4%;
+        z-index: 9;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background: rgba(255, 252, 252, 0.9);
+    }
+}
