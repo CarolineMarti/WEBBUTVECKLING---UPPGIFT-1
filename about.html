@@ -2,57 +2,44 @@
 <!DOCTYPE html>
 <!--The root of the HTML structure with attribute setting the language to english-->
 <html lang="en">
-    <!--Contains all metadata that defines document title,styles and scripts -->
+<!--Contains all metadata that defines document title,styles and scripts -->
 
-    <head>
-        <!--Charset attribute sets the first ascii encoding standard (UTF-8) -->
-        <meta charset="UTF-8" />
-        <!--Is used to set what version of internet explorer should be rendered as.This is set to highest most available mode-->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <!--This is telling the browser what scaling and dimensions the viewport should have-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!--Name of the page in the tab-->
-        <title>About</title>
-        <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
-        <!--Connects css to html-->
-        <link rel="stylesheet" href="./styling/styles.css" />
-    </head>
+<head>
+    <!--Charset attribute sets the first ascii encoding standard (UTF-8) -->
+    <meta charset="UTF-8" />
+    <!--Is used to set what version of internet explorer should be rendered as.This is set to highest most available mode-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--This is telling the browser what scaling and dimensions the viewport should have-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Name of the page in the tab-->
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
+    <!--Connects css to html-->
+    <link rel="stylesheet" href="./styling/styles.css" />
+</head>
 
-    <body>
-        <!--This container holds all content and sets background color and size-->
-        <div class="background">
-            <!--This container holds links to socialmedia.
-              Uses flexbox to set spacing between the links and the hight of the container.
-              Has position absolute-->
-            <div class="socialmedia-container">
-                <a href="https://www.instagram.com/carolinemartinussen_/">
-                    <!-- This img tag has a class that is setting the size of the instagram image-->
-                    <img class="socialmedia-icon" src="img/instagram 1.svg" />
-                </a>
-                <a
-                    href="https://www.linkedin.com/in/caroline-martinussen-819a98226/"
-                >
-                    <!-- This img tag has a class that is setting the size of the linkedin image-->
-                    <img class="socialmedia-icon" src="img/linkedin.svg" />
-                </a>
-            </div>
-            <!--This container holds the main content. Has its own background color. Has position absolute-->
-            <div class="semi-background">
-                <!-- This container holds the logo and navigation bar for the various pages on the website.Uses flexbox-->
-                <nav class="navbar">
-                    <!-- This container holds the logo-->
-                    <div class="nav-logo"><img src="img/Group10.svg" /></div>
-                    <!-- This container holds the links and uses flexbox with space around the links-->
-                    <div class="nav-links">
-                        <a class="nav-link" href="index.html">Home</a>
-                        <a class="nav-link" href="work.html">Work</a>
-                        <a class="nav-link" href="contact.html">Contact</a>
-                        <!--This navigation link is selected and has its own styling-->
-                        <a class="nav-link selected-link" href="about.html"
-                            >About</a
-                        >
-                    </div>
-                </nav>
+<body>
+    <!--This container holds all content and sets background color and size-->
+    <div class="background">
+        <!-- This container holds the logo-->
+        <div class=logo-text>
+            <h1>Caroline Martinussen</p>
+        </div>
+        <!--This container holds the main content. Has its own background color. Has position absolute-->
+        <div class="semi-background">
+            <!-- This container holds the logo and navigation bar for the various pages on the website.Uses flexbox-->
+            <nav class="navbar">
+                <!-- This container holds the links and uses flexbox with space around the links-->
+                <div class="nav-links">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="work.html">Work</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    <!--This navigation link is selected and has its own styling-->
+                    <a class="nav-link selected-link" href="about.html">About</a>
+                </div>
+            </nav>
+            <div class="content">
                 <!--This container holds the about-picture. Sets size to the picture and has position relative-->
                 <div class="about-pic">
                     <!-- This tag has the class image-fit to set max width and max height to its parent container-->
@@ -91,5 +78,20 @@
                 </div>
             </div>
         </div>
-    </body>
+        <!--This container holds links to socialmedia.
+              Uses flexbox to set spacing between the links and the hight of the container.
+              Has position absolute-->
+        <div class="socialmedia-container">
+            <a href="https://www.instagram.com/carolinemartinussen_/">
+                <!-- This img tag has a class that is setting the size of the instagram image-->
+                <img class="socialmedia-icon" src="img/instagram 1.svg" />
+            </a>
+            <a href="https://www.linkedin.com/in/caroline-martinussen-819a98226/">
+                <!-- This img tag has a class that is setting the size of the linkedin image-->
+                <img class="socialmedia-icon" src="img/linkedin.svg" />
+            </a>
+        </div>
+    </div>
+</body>
+
 </html>

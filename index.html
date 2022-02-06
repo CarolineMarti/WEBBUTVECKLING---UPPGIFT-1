@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Name of the page in the tab-->
     <title>Caroline Martinussen</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
     <!--Connects css to html-->
     <link rel="stylesheet" href="./styling/styles.css" />
@@ -54,6 +55,9 @@
                     <a class="nav-link" href="work.html">Work</a>
                     <a class="nav-link" href="contact.html">Contact</a>
                     <a class="nav-link" href="about.html">About</a>
+                    <button onclick="openSideNav()" type="button" class="btn btn-flat button-ripple flex-center">
+                        <span class="material-icons md-36">menu</span>
+                    </button>
                 </div>
             </nav>
             <!--This container holds the profil-picture. Sets size to the picture and has position absolute-->
@@ -81,6 +85,19 @@
                 <img class="socialmedia-icon" src="img/linkedin.svg" />
             </a>
         </div>
+    </div>
+    <div class="nav-drawer">
+        <!--This navigation link is selected and has its own styling-->
+        <ul>
+            <li><a class="nav-drawer-item selected-link" href="index.html">Home</a></li>
+            <li><a class="nav-drawer-item" href="work.html">Work</a></li>
+            <li><a class="nav-drawer-item" href="contact.html">Contact</a></li>
+            <li><a class="nav-drawer-item" href="about.html">About</a></li>
+        </ul>
+
+
+
+
     </div>
 </body>
 

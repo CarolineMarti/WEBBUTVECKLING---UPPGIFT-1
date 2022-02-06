@@ -1,0 +1,234 @@
+{
+    "sourceFile": "styling/styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 54,
+            "patches": [
+                {
+                    "date": 1644161545717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644161574058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -174,9 +174,9 @@\n     position: absolute;\n     width: 600px;\n     height: 300px;\n     left: 64px;\n-    top: 16px;\n+    top: 15%;\n \n     font-family: \"Six Caps\", \"Lora\", serif;\n     font-style: normal;\n     font-weight: 800;\n"
+                },
+                {
+                    "date": 1644161583601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -174,9 +174,9 @@\n     position: absolute;\n     width: 600px;\n     height: 300px;\n     left: 64px;\n-    top: 15%;\n+    top: 16%;\n \n     font-family: \"Six Caps\", \"Lora\", serif;\n     font-style: normal;\n     font-weight: 800;\n"
+                },
+                {
+                    "date": 1644161595718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,17 +166,17 @@\n     position: relative;\n     width: 432px;\n     height: 576px;\n     left: 40.1%;\n-    top: 16px;\n+    top: 15%;\n }\n \n .about-text {\n     position: absolute;\n     width: 600px;\n     height: 300px;\n     left: 64px;\n-    top: 16%;\n+    top: 16px;\n \n     font-family: \"Six Caps\", \"Lora\", serif;\n     font-style: normal;\n     font-weight: 800;\n"
+                },
+                {
+                    "date": 1644161654371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,9 +154,9 @@\n .text-box-about {\n     position: absolute;\n     width: 700px;\n     height: 400px;\n-    left: 80px;\n+    left: 1%;\n     top: 260px;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n     background: rgba(255, 252, 252, 0.7);\n"
+                },
+                {
+                    "date": 1644161685359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -155,9 +155,9 @@\n     position: absolute;\n     width: 700px;\n     height: 400px;\n     left: 1%;\n-    top: 260px;\n+    top: 20%;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n     background: rgba(255, 252, 252, 0.7);\n }\n"
+                },
+                {
+                    "date": 1644161717277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -153,9 +153,9 @@\n \n .text-box-about {\n     position: absolute;\n     width: 700px;\n-    height: 400px;\n+    height: 30%;\n     left: 1%;\n     top: 20%;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n"
+                },
+                {
+                    "date": 1644161744536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -152,9 +152,9 @@\n }\n \n .text-box-about {\n     position: absolute;\n-    width: 700px;\n+    width: 95%;\n     height: 30%;\n     left: 1%;\n     top: 20%;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n"
+                },
+                {
+                    "date": 1644161805213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -161,15 +161,8 @@\n \n     background: rgba(255, 252, 252, 0.7);\n }\n \n-.about-pic {\n-    position: relative;\n-    width: 432px;\n-    height: 576px;\n-    left: 40.1%;\n-    top: 15%;\n-}\n \n .about-text {\n     position: absolute;\n     width: 600px;\n@@ -184,8 +177,15 @@\n     line-height: 30px;\n \n     color: black;\n }\n+.about-pic {\n+    position: relative;\n+    width: 432px;\n+    height: 576px;\n+    left: 40.1%;\n+    top: 15%;\n+}\n \n .work-pic {\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1644161815508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -169,16 +169,17 @@\n     height: 300px;\n     left: 64px;\n     top: 16px;\n \n-    font-family: \"Six Caps\", \"Lora\", serif;\n+    font-family: \"Roboto\", \"Lora\", serif;\n     font-style: normal;\n     font-weight: 800;\n     font-size: 15px;\n     line-height: 30px;\n \n     color: black;\n }\n+s\n .about-pic {\n     position: relative;\n     width: 432px;\n     height: 576px;\n"
+                },
+                {
+                    "date": 1644162073640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -177,9 +177,9 @@\n     line-height: 30px;\n \n     color: black;\n }\n-s\n+\n .about-pic {\n     position: relative;\n     width: 432px;\n     height: 576px;\n"
+                },
+                {
+                    "date": 1644162377705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -153,9 +153,9 @@\n \n .text-box-about {\n     position: absolute;\n     width: 95%;\n-    height: 30%;\n+    height: 50%;\n     left: 1%;\n     top: 20%;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n"
+                },
+                {
+                    "date": 1644162503284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -155,9 +155,9 @@\n     position: absolute;\n     width: 95%;\n     height: 50%;\n     left: 1%;\n-    top: 20%;\n+    top: 18%;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n     background: rgba(255, 252, 252, 0.7);\n }\n"
+                },
+                {
+                    "date": 1644162509073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n     left: 1%;\n     top: 18%;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n-    background: rgba(255, 252, 252, 0.7);\n+    background: rgba(255, 252, 252, 0.9);\n }\n \n \n .about-text {\n"
+                },
+                {
+                    "date": 1644162547132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n     position: relative;\n     width: 432px;\n     height: 576px;\n     left: 40.1%;\n-    top: 15%;\n+    top: 22%;\n }\n \n .work-pic {\n     display: flex;\n"
+                },
+                {
+                    "date": 1644162648625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,9 +164,9 @@\n \n \n .about-text {\n     position: absolute;\n-    width: 600px;\n+    width: 80;\n     height: 300px;\n     left: 64px;\n     top: 16px;\n \n@@ -182,9 +182,9 @@\n .about-pic {\n     position: relative;\n     width: 432px;\n     height: 576px;\n-    left: 40.1%;\n+    left: 38%;\n     top: 22%;\n }\n \n .work-pic {\n"
+                },
+                {
+                    "date": 1644162655471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,12 +164,12 @@\n \n \n .about-text {\n     position: absolute;\n-    width: 80;\n-    height: 300px;\n     left: 64px;\n     top: 16px;\n+    width: 80%;\n+    height: 300px;\n \n     font-family: \"Roboto\", \"Lora\", serif;\n     font-style: normal;\n     font-weight: 800;\n"
+                },
+                {
+                    "date": 1644162689151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,9 +167,9 @@\n     position: absolute;\n     left: 64px;\n     top: 16px;\n     width: 80%;\n-    height: 300px;\n+    height: 100%;\n \n     font-family: \"Roboto\", \"Lora\", serif;\n     font-style: normal;\n     font-weight: 800;\n"
+                },
+                {
+                    "date": 1644162778733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -152,9 +152,9 @@\n }\n \n .text-box-about {\n     position: absolute;\n-    width: 95%;\n+    width: 68%;\n     height: 50%;\n     left: 1%;\n     top: 18%;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n"
+                },
+                {
+                    "date": 1644162794496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -153,11 +153,11 @@\n \n .text-box-about {\n     position: absolute;\n     width: 68%;\n-    height: 50%;\n+    height: 70%;\n     left: 1%;\n-    top: 18%;\n+    top: 4%;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n     background: rgba(255, 252, 252, 0.9);\n }\n"
+                },
+                {
+                    "date": 1644162823722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n     position: relative;\n     width: 432px;\n     height: 576px;\n     left: 38%;\n-    top: 22%;\n+    top: 30%;\n }\n \n .work-pic {\n     display: flex;\n"
+                },
+                {
+                    "date": 1644162923227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -173,9 +173,9 @@\n     font-family: \"Roboto\", \"Lora\", serif;\n     font-style: normal;\n     font-weight: 800;\n     font-size: 15px;\n-    line-height: 30px;\n+    line-height: 29px;\n \n     color: black;\n }\n \n"
+                },
+                {
+                    "date": 1644163535704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,9 +181,9 @@\n \n .about-pic {\n     position: relative;\n     width: 432px;\n-    height: 576px;\n+    height: 59%;\n     left: 38%;\n     top: 30%;\n }\n \n"
+                },
+                {
+                    "date": 1644163543130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,9 +180,9 @@\n }\n \n .about-pic {\n     position: relative;\n-    width: 432px;\n+    width: 100%;\n     height: 59%;\n     left: 38%;\n     top: 30%;\n }\n"
+                },
+                {
+                    "date": 1644164076862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,9 +179,10 @@\n     color: black;\n }\n \n .about-pic {\n-    position: relative;\n+    position: absolute\n+    ;\n     width: 100%;\n     height: 59%;\n     left: 38%;\n     top: 30%;\n"
+                },
+                {
+                    "date": 1644164122477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,11 +179,10 @@\n     color: black;\n }\n \n .about-pic {\n-    position: absolute\n-    ;\n-    width: 100%;\n+    position: absolute;\n+    width: 30%;\n     height: 59%;\n     left: 38%;\n     top: 30%;\n }\n"
+                },
+                {
+                    "date": 1644164148307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,9 +181,9 @@\n \n .about-pic {\n     position: absolute;\n     width: 30%;\n-    height: 59%;\n+    height: 70%;\n     left: 38%;\n     top: 30%;\n }\n \n"
+                },
+                {
+                    "date": 1644164383075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,8 +156,9 @@\n     width: 68%;\n     height: 70%;\n     left: 1%;\n     top: 4%;\n+    z-index: inherit;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n     background: rgba(255, 252, 252, 0.9);\n }\n"
+                },
+                {
+                    "date": 1644164388725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,9 +156,9 @@\n     width: 68%;\n     height: 70%;\n     left: 1%;\n     top: 4%;\n-    z-index: inherit;\n+    z-index: 1;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n     background: rgba(255, 252, 252, 0.9);\n }\n"
+                },
+                {
+                    "date": 1644164508069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,9 +156,10 @@\n     width: 68%;\n     height: 70%;\n     left: 1%;\n     top: 4%;\n-    z-index: 1;\n+    z-index: 9;\n+    box-sizing: border-box;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n     background: rgba(255, 252, 252, 0.9);\n }\n"
+                },
+                {
+                    "date": 1644164609500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,8 +158,9 @@\n     left: 1%;\n     top: 4%;\n     z-index: 9;\n     box-sizing: border-box;\n+    display: inline-block;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n     background: rgba(255, 252, 252, 0.9);\n }\n"
+                },
+                {
+                    "date": 1644164859403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,9 +183,9 @@\n }\n \n .about-pic {\n     position: absolute;\n-    width: 30%;\n+    width: 500%;\n     height: 70%;\n     left: 38%;\n     top: 30%;\n }\n"
+                },
+                {
+                    "date": 1644164874496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,12 +183,12 @@\n }\n \n .about-pic {\n     position: absolute;\n-    width: 500%;\n+    width: 50%;\n     height: 70%;\n     left: 38%;\n-    top: 30%;\n+    top: 38%;\n }\n \n .work-pic {\n     display: flex;\n"
+                },
+                {
+                    "date": 1644164911672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -340,9 +340,18 @@\n     \n         color: black;\n         /* background: rgba(255, 252, 252, 0.7); */\n     }\n+\n+    \n+.about-pic {\n+    position: absolute;\n+    width: 50%;\n+    height: 70%;\n+    left: 38%;\n+    top: 38%;\n }\n+}\n \n @media (max-width: 601px) {\n     .semi-background {\n         position: absolute;\n"
+                },
+                {
+                    "date": 1644164935289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -186,9 +186,9 @@\n     position: absolute;\n     width: 50%;\n     height: 70%;\n     left: 38%;\n-    top: 38%;\n+    top: 30%;\n }\n \n .work-pic {\n     display: flex;\n@@ -342,16 +342,16 @@\n         /* background: rgba(255, 252, 252, 0.7); */\n     }\n \n     \n-.about-pic {\n-    position: absolute;\n-    width: 50%;\n-    height: 70%;\n-    left: 38%;\n-    top: 38%;\n+    .about-pic {\n+        position: absolute;\n+        width: 50%;\n+        height: 70%;\n+        left: 38%;\n+        top: 38%;\n+    }\n }\n-}\n \n @media (max-width: 601px) {\n     .semi-background {\n         position: absolute;\n"
+                },
+                {
+                    "date": 1644164957828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -185,9 +185,9 @@\n .about-pic {\n     position: absolute;\n     width: 50%;\n     height: 70%;\n-    left: 38%;\n+    left: 60%;\n     top: 30%;\n }\n \n .work-pic {\n"
+                },
+                {
+                    "date": 1644165041948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -341,9 +341,22 @@\n         color: black;\n         /* background: rgba(255, 252, 252, 0.7); */\n     }\n \n+    .text-box-about {\n+        position: absolute;\n+        width: 68%;\n+        height: 70%;\n+        left: 1%;\n+        top: 4%;\n+        z-index: 9;\n+        box-sizing: border-box;\n+        display: inline-block;\n+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n     \n+        background: rgba(255, 252, 252, 0.9);\n+    }\n+    \n     .about-pic {\n         position: absolute;\n         width: 50%;\n         height: 70%;\n"
+                },
+                {
+                    "date": 1644165096489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -350,8 +350,9 @@\n         top: 4%;\n         z-index: 9;\n         box-sizing: border-box;\n         display: inline-block;\n+        \n         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n     \n         background: rgba(255, 252, 252, 0.9);\n     }\n"
+                },
+                {
+                    "date": 1644165146363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -349,10 +349,10 @@\n         left: 1%;\n         top: 4%;\n         z-index: 9;\n         box-sizing: border-box;\n-        display: inline-block;\n-        \n+        display: block;\n+        overflow: hidden;\n         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n     \n         background: rgba(255, 252, 252, 0.9);\n     }\n"
+                },
+                {
+                    "date": 1644165172256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -349,9 +349,8 @@\n         left: 1%;\n         top: 4%;\n         z-index: 9;\n         box-sizing: border-box;\n-        display: block;\n         overflow: hidden;\n         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n     \n         background: rgba(255, 252, 252, 0.9);\n"
+                },
+                {
+                    "date": 1644165187366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -161,8 +161,9 @@\n     box-sizing: border-box;\n     display: inline-block;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n+    \n     background: rgba(255, 252, 252, 0.9);\n }\n \n \n@@ -349,9 +350,8 @@\n         left: 1%;\n         top: 4%;\n         z-index: 9;\n         box-sizing: border-box;\n-        overflow: hidden;\n         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n     \n         background: rgba(255, 252, 252, 0.9);\n     }\n"
+                },
+                {
+                    "date": 1644165196552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,11 +159,11 @@\n     top: 4%;\n     z-index: 9;\n     box-sizing: border-box;\n     display: inline-block;\n+    overflo\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n-    \n     background: rgba(255, 252, 252, 0.9);\n }\n \n \n"
+                },
+                {
+                    "date": 1644165221405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n     top: 4%;\n     z-index: 9;\n     box-sizing: border-box;\n     display: inline-block;\n-    overflo\n+    overflow: scroll;\n     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n \n     background: rgba(255, 252, 252, 0.9);\n }\n"
+                },
+                {
+                    "date": 1644165679923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,9 +196,9 @@\n     flex-direction: column;\n     align-items: center;\n \n     width: 432px;\n-    height: 576px;\n+    height: 68%;\n }\n \n .text-work {\n \n"
+                },
+                {
+                    "date": 1644165699145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,9 +195,9 @@\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n \n-    width: 432px;\n+    width: 50%;\n     height: 68%;\n }\n \n .text-work {\n"
+                },
+                {
+                    "date": 1644165751585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -205,8 +205,9 @@\n     width: 46%;\n     height: 24%;\n \n     font-family: \"Open Sans\", sans-serif;\n+    font-family: \"Open Sans\", sans-serif;\n     font-style: normal;\n     font-weight: 400;\n     font-size: 230%;\n     line-height: 85%;\n"
+                },
+                {
+                    "date": 1644165757519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,10 +204,9 @@\n \n     width: 46%;\n     height: 24%;\n \n-    font-family: \"Open Sans\", sans-serif;\n-    font-family: \"Open Sans\", sans-serif;\n+    font-family: \"Open Sans\", \"Open Sans\", sans-serif;\n     font-style: normal;\n     font-weight: 400;\n     font-size: 230%;\n     line-height: 85%;\n"
+                },
+                {
+                    "date": 1644165845552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,11 +204,11 @@\n \n     width: 46%;\n     height: 24%;\n \n-    font-family: \"Open Sans\", \"Open Sans\", sans-serif;\n+    font-family: \"Roboto\", \"Open Sans\", sans-serif;\n     font-style: normal;\n-    font-weight: 400;\n+    font-weight: 200;\n     font-size: 230%;\n     line-height: 85%;\n \n     color: black;\n"
+                },
+                {
+                    "date": 1644165869451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \n     font-family: \"Roboto\", \"Open Sans\", sans-serif;\n     font-style: normal;\n     font-weight: 200;\n-    font-size: 230%;\n+    font-size: 170%;\n     line-height: 85%;\n \n     color: black;\n }\n"
+                },
+                {
+                    "date": 1644166018570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -119,8 +119,9 @@\n     justify-content: space-around;\n     align-items: center;\n \n     height: 93%;\n+    max-height: 940px;\n }\n \n .profile-pic {\n     position: absolute;\n"
+                },
+                {
+                    "date": 1644166145435,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,8 +109,9 @@\n     position: relative;\n     order: 2;\n \n     height: 100%;\n+    max-height: 940px;\n }\n \n .content-flex {\n     display: flex;\n@@ -202,9 +203,9 @@\n }\n \n .text-work {\n \n-    width: 46%;\n+    width: 49%;\n     height: 24%;\n \n     font-family: \"Roboto\", \"Open Sans\", sans-serif;\n     font-style: normal;\n"
+                },
+                {
+                    "date": 1644166162315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,9 +203,9 @@\n }\n \n .text-work {\n \n-    width: 49%;\n+    width: 56%;\n     height: 24%;\n \n     font-family: \"Roboto\", \"Open Sans\", sans-serif;\n     font-style: normal;\n"
+                },
+                {
+                    "date": 1644166169648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,8 +213,9 @@\n     font-size: 170%;\n     line-height: 85%;\n \n     color: black;\n+    mar\n }\n \n .navbar {\n     display: flex;\n"
+                },
+                {
+                    "date": 1644166177751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -214,8 +214,9 @@\n     line-height: 85%;\n \n     color: black;\n     margin\n+    \n }\n \n .navbar {\n     display: flex;\n"
+                },
+                {
+                    "date": 1644167458628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -274,9 +274,9 @@\n     align-items: center;\n }\n \n .nav-drawer {\n-    display: ;\n+    display: n;\n }\n \n @media (max-width: 900px) {\n     .background {\n"
+                }
+            ],
+            "date": 1644161545717,
+            "name": "Commit-0",
+            "content": "html,\nbody {\n    width: 100%;\n    height: 100%;\n}\n\nbody {\n    margin: 0px;\n}\n\na.button {\n    font-family: Arial, Helvetica, sans-serif, sans-serif;\n    position: absolute;\n    padding-left: 11%;\n    top: 60%;\n    left: 45%;\n    transform: translate(-50%, -50%);\n\n    width: 170px;\n    height: 40px;\n    line-height: 2;\n    font-size: 18px;\n    font-weight: bold;\n    letter-spacing: 1px;\n    border: 3px solid #3b3c37;\n    background: #787b70;\n    color: white;\n    border-radius: 40px;\n    cursor: pointer;\n    overflow: hidden;\n    transition: all 0.35s;\n}\n\na.button:hover {\n    color: #abafa0;\n}\n\na.button span {\n    opacity: 1;\n    visibility: visible;\n    transition: all 0.35s;\n}\n\n.image-fit {\n    max-width: 100%;\n    max-height: 100%;\n}\n\n.background {\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n\n    background: linear-gradient(\n        180deg,\n        #d3d8c6 0%,\n        rgba(211, 216, 198, 0) 100%\n    );\n}\n\n.logo-text {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    justify-self: center;\n    justify-items: center;\n    align-items: center;\n    order: 1;\n\n    height: 8%;\n\n    font-family: Six Caps;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 28px;\n    line-height: 0%;\n    text-decoration-line: line-through;\n}\n\n.semi-background {\n    order: 2;\n    flex-direction: column;\n    width: 94%;\n    height: 83%;\n    left: 72px;\n    top: 70px;\n\n    background: linear-gradient(180deg, #abafa0 0%, rgba(84, 84, 84, 0) 100%);\n}\n\n.socialmedia-container {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-direction: row;\n    order: 3;\n    height: 254px;\n}\n\n.socialmedia-icon {\n    width: 100px;\n    height: 70px;\n}\n\n.content {\n    position: relative;\n    order: 2;\n\n    height: 100%;\n}\n\n.content-flex {\n    display: flex;\n    order: 2;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: center;\n\n    height: 93%;\n}\n\n.profile-pic {\n    position: absolute;\n    width: 350px;\n    height: 600px;\n    left: 818px;\n    top: 120px;\n\n    /* background: url(0BEF8EAD-E3A8-48E9-A432-49B0476B3662.jpg); */\n    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n}\n\n.header {\n    position: absolute;\n    width: 700px;\n    height: 400px;\n    left: 191px;\n    top: 390px;\n\n    font-family: \"Six Caps\", \"Lora\", serif;\n    font-style: normal;\n    font-weight: 800;\n    font-size: 40px;\n    line-height: 84px;\n\n    color: #ffffff;\n\n    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\n}\n\n.text-box-about {\n    position: absolute;\n    width: 700px;\n    height: 400px;\n    left: 80px;\n    top: 260px;\n    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n\n    background: rgba(255, 252, 252, 0.7);\n}\n\n.about-pic {\n    position: relative;\n    width: 432px;\n    height: 576px;\n    left: 40.1%;\n    top: 16px;\n}\n\n.about-text {\n    position: absolute;\n    width: 600px;\n    height: 300px;\n    left: 64px;\n    top: 16px;\n\n    font-family: \"Six Caps\", \"Lora\", serif;\n    font-style: normal;\n    font-weight: 800;\n    font-size: 15px;\n    line-height: 30px;\n\n    color: black;\n}\n\n.work-pic {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n\n    width: 432px;\n    height: 576px;\n}\n\n.text-work {\n\n    width: 46%;\n    height: 24%;\n\n    font-family: \"Open Sans\", sans-serif;\n    font-style: normal;\n    font-weight: 400;\n    font-size: 230%;\n    line-height: 85%;\n\n    color: black;\n}\n\n.navbar {\n    display: flex;\n    order: 1;\n    justify-content: space-between;\n    justify-self: flex-end;\n\n}\n\n.nav-links {\n    display: flex;\n    justify-self: flex-end;\n    justify-content: space-around;\n}\n\n.nav-link {\n    font-family: \"Six Caps\", Roboto;\n    font-style: normal;\n    font-weight: 800;\n    font-size: 42px;\n    line-height: 30px;\n    padding: 14px 16px;\n\n    color: #3b3c37;\n\n    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\n    text-decoration: none;\n}\n.nav-link:hover {\n    color: white;\n}\n.selected-link {\n    color: white;\n    text-decoration: underline;\n}\n\n.container {\n    position: absolute;\n    width: 700px;\n    height: 300px;\n    left: 180px;\n    top: 352px;\n    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n    background: rgba(255, 252, 252, 0.7);\n}\n\n.flex-row {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    justify-content: space-around;\n}\n\n.flex-col {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n@media (max-width: 900px) {\n    .background {\n        width: 100%;\n        height: 100%;\n\n        align-items: center;\n\n        background: #ffffff;\n    }\n\n    .semi-background {\n        order: 2;\n        display: flex;\n        width: 88%;\n        height: 99%;\n        background: linear-gradient(\n            180deg,\n            #e0c5a3 0%,\n            rgba(190, 194, 178, 0) 100%\n        );\n    }\n\n    .header {\n        position: absolute;\n        left: 6%;\n        top: 50%;\n\n        /* position: unset; */\n        width: 700px;\n        height: 400px;\n\n        font-family: \"Six Caps\", Arial, Helvetica, sans-serif, sans-serif;\n        font-style: normal;\n        font-weight: 400;\n        font-size: 60px;\n        line-height: 126px;\n\n        color: #ffffff;\n\n        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\n    }\n\n    .profile-pic {\n        position: absolute;\n        left: 46%;\n        top: 24%;\n        width: 350px;\n        height: 600px;\n\n        /* background: url(0BEF8EAD-E3A8-48E9-A432-49B0476B3662.jpg); */\n        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n    }\n\n    .text-work {\n        /* position: absolute;\n        left: 320px;\n        top: 400px; */\n    \n        width: 77%;\n        height: 24%;\n    \n        font-family: \"Roboto\", \"Open Sans\", sans-serif;\n        font-style: normal;\n        font-weight: 200;\n        font-size: 145%;\n        line-height: 111%;\n    \n        color: black;\n        /* background: rgba(255, 252, 252, 0.7); */\n    }\n}\n\n@media (max-width: 601px) {\n    .semi-background {\n        position: absolute;\n        width: 361px;\n        height: 799px;\n        left: 33px;\n        top: 97px;\n        background: linear-gradient(\n            180deg,\n            #e0c5a3 0%,\n            rgba(190, 194, 178, 0) 100%\n        );\n    }\n}\n"
+        }
+    ]
+}

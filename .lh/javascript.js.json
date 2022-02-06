@@ -1,0 +1,62 @@
+{
+    "sourceFile": "javascript.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1644153723508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644153805058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n-document.(\"input\")querySelectorAll.forEach(\n+\n+document.querySelectorAll(\"input\").forEach(\n     inputfield => {\n         inputfield.addEventListener(\"blur\", (event) => {\n             if (inputfield.value === \"\") {\n                 inputfield.classList.remove(\"hascontent\")\n"
+                },
+                {
+                    "date": 1644153824913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+let \n document.querySelectorAll(\"input\").forEach(\n     inputfield => {\n         inputfield.addEventListener(\"blur\", (event) => {\n             if (inputfield.value === \"\") {\n"
+                },
+                {
+                    "date": 1644153840591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-let \n+let inputfält;\n document.querySelectorAll(\"input\").forEach(\n     inputfield => {\n         inputfield.addEventListener(\"blur\", (event) => {\n             if (inputfield.value === \"\") {\n"
+                },
+                {
+                    "date": 1644153846825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-let inputfält;\n+let inputfält \n document.querySelectorAll(\"input\").forEach(\n     inputfield => {\n         inputfield.addEventListener(\"blur\", (event) => {\n             if (inputfield.value === \"\") {\n"
+                },
+                {
+                    "date": 1644153854669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-let inputfält \n+let inputfält = deocument\n document.querySelectorAll(\"input\").forEach(\n     inputfield => {\n         inputfield.addEventListener(\"blur\", (event) => {\n             if (inputfield.value === \"\") {\n"
+                },
+                {
+                    "date": 1644153866598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-let inputfält = deocument\n+let inputfält = deocument.querySelectorAll(\"input\")\n document.querySelectorAll(\"input\").forEach(\n     inputfield => {\n         inputfield.addEventListener(\"blur\", (event) => {\n             if (inputfield.value === \"\") {\n"
+                },
+                {
+                    "date": 1644153887824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-let inputfält = deocument.querySelectorAll(\"input\")\n+let inputfält = deocument.querySelectorAll(\"input\");\n document.querySelectorAll(\"input\").forEach(\n     inputfield => {\n         inputfield.addEventListener(\"blur\", (event) => {\n             if (inputfield.value === \"\") {\n"
+                },
+                {
+                    "date": 1644153908704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n let inputfält = deocument.querySelectorAll(\"input\");\n+console.log\n document.querySelectorAll(\"input\").forEach(\n     inputfield => {\n         inputfield.addEventListener(\"blur\", (event) => {\n             if (inputfield.value === \"\") {\n"
+                },
+                {
+                    "date": 1644153914271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n let inputfält = deocument.querySelectorAll(\"input\");\n-console.log\n+console.log({})\n document.querySelectorAll(\"input\").forEach(\n     inputfield => {\n         inputfield.addEventListener(\"blur\", (event) => {\n             if (inputfield.value === \"\") {\n"
+                },
+                {
+                    "date": 1644153920040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n let inputfält = deocument.querySelectorAll(\"input\");\n-console.log({inout})\n+console.log({inou})\n document.querySelectorAll(\"input\").forEach(\n     inputfield => {\n         inputfield.addEventListener(\"blur\", (event) => {\n             if (inputfield.value === \"\") {\n"
+                },
+                {
+                    "date": 1644155740521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         })\n     });\n \n document.querySelectorAll(\"textarea\").forEach(field => {\n-    field.addEventListener(\"blur\", function (event) => {\n+    field.addEventListener(\"blur\", function(event) => {\n         if (field.value === \"\") {\n             field.classList.remove(\"hascontent\")\n         } else {\n             field.classList.add(\"hascontent\")\n"
+                }
+            ],
+            "date": 1644153723508,
+            "name": "Commit-0",
+            "content": "document.(\"input\")querySelectorAll.forEach(\n    inputfield => {\n        inputfield.addEventListener(\"blur\", (event) => {\n            if (inputfield.value === \"\") {\n                inputfield.classList.remove(\"hascontent\")\n            } else {\n                inputfield.classList.add(\"hascontent\")\n            }\n        })\n    });\n\ndocument.querySelectorAll(\"textarea\").forEach(field => {\n    field.addEventListener(\"blur\", (event) => {\n        if (field.value === \"\") {\n            field.classList.remove(\"hascontent\")\n        } else {\n            field.classList.add(\"hascontent\")\n        }\n    })\n})\n"
+        }
+    ]
+}
