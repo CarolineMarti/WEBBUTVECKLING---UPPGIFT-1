@@ -13,9 +13,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Name of the page in the tab-->
     <title>Contact</title>
-    <!--Connects css to html-->
+    <!--Connects material icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Connects font type "Six caps"-->
     <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
+    <!--Connects css to html-->
     <link rel="stylesheet" href="./styling/styles.css" />
     <link rel="stylesheet" href="./styling/contact.css" />
 </head>
@@ -29,7 +31,7 @@
         </div>
         <!--This container holds the main content. Has its own background-color. Has position absolute-->
         <div class="semi-background">
-            <!-- This container holds the logo and navigation bar for the various pages on the website.Uses flexbox-->
+            <!-- This container holds the navigation bar for the various pages on the website.Uses flexbox-->
             <nav class="navbar">
                 <!-- This container holds the links and uses flexbox with space around the links-->
                 <div class="nav-links">
@@ -40,17 +42,17 @@
                         <li><a class="nav-link selected-link" href="contact.html">Contact</a></li>
                         <li><a class="nav-link" href="about.html">About</a></li>
                     </ul>
-
+                    <!--This button opens the navbar on the mobile screen-->
                     <button onclick="openSideNav()" type="button"
                         class="btn btn-flat button-ripple flex-center only-mobile">
                         <span class="material-icons md-36">menu</span>
                     </button>
                 </div>
+                <!--This button closes the navbar on the mobile screen-->
                 <div class="nav-drawer">
                     <button onclick="closeSideNav()" type="button" class="btn btn-flat button-ripple flex-center">
                         <span class="material-icons md-36">close</span>
                     </button>
-                    <!--This navigation link is selected and has its own styling-->
                     <ul>
                         <li>
                             <a class="nav-link" href="index.html">Home</a>
@@ -64,6 +66,7 @@
                                 <img src="./img/navigate_next_black_24dp.svg">
                             </span>
                         </li>
+                        <!--This navigation link is selected and has its own styling-->
                         <li>
                             <a class="nav-link selected-link" href="contact.html">Contact</a>
                         </li>
@@ -101,8 +104,8 @@
                                 <label for="message">Message</label>
                             </div>
                         </div>
+                        <!--This container holds the size,font and color of the button-->
                         <div class="flex-row">
-                            <!--This container holds the size,font and color of the button-->
                             <button type="submit" class="btn button-ripple">Send</button>
                         </div>
                     </div>
@@ -113,10 +116,13 @@
               Uses flexbox to set spacing between the links and the hight of the container.
               Has position absolute-->
         <div class="socialmedia-container">
-            <a href="https://www.instagram.com/carolinemartinussen_/"><img class="socialmedia-icon"
-                    src="img/instagram 1.svg" /></a>
-            <a href="https://www.linkedin.com/in/caroline-martinussen-819a98226/"><img class="socialmedia-icon"
-                    src="img/linkedin.svg" /></a>
+            <a href="https://www.instagram.com/carolinemartinussen_/">
+                <!-- This img tag has a class that is setting the size of the instagram image-->
+                <img class="socialmedia-icon" alt="link to instagram.com" src="img/instagram 1.svg" />
+            </a>
+            <a href="https://www.linkedin.com/in/caroline-martinussen-819a98226/">
+                <!-- This img tag has a class that is setting the size of the linkedin image-->
+                <img class="socialmedia-icon" alt="link to linkedin.com" src="img/linkedin.svg" />
         </div>
     </div>
 </body>

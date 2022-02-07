@@ -13,8 +13,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Name of the page in the tab-->
     <title>Work</title>
+    <!--Connects material icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Connects font type "Roboto"-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--Connects font type "Six caps"-->
     <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
     <!--Connects css to html-->
     <link rel="stylesheet" href="./styling/styles.css">
@@ -31,7 +34,7 @@
         </div>
         <!--This container holds the main content. Has its own background-color. Has position absolute-->
         <div class="semi-background">
-            <!-- This container holds the logo and navigation bar for the various pages on the website.Uses flexbox-->
+            <!-- This container holds the navigation bar for the various pages on the website.Uses flexbox-->
             <nav class="navbar">
                 <!-- This container holds the links and uses flexbox with space around the links-->
                 <div class="nav-links">
@@ -42,12 +45,13 @@
                         <li><a class="nav-link" href="contact.html">Contact</a></li>
                         <li><a class="nav-link" href="about.html">About</a></li>
                     </ul>
-
+                    <!--This button opens the navbar on the mobile screen-->
                     <button onclick="openSideNav()" type="button"
                         class="btn btn-flat button-ripple flex-center only-mobile">
                         <span class="material-icons md-36">menu</span>
                     </button>
                 </div>
+                <!--This button closes the navbar on the mobile screen-->
                 <div class="nav-drawer">
                     <button onclick="closeSideNav()" type="button" class="btn btn-flat button-ripple flex-center">
                         <span class="material-icons md-36">close</span>
@@ -82,7 +86,7 @@
                 <!--This container holds the work-picture. Sets size to the picture and has position relative-->
                 <div class="work-pic">
                     <!-- This tag has the class image-fit to set max width and max height to its parent container-->
-                    <img class="image-fit" src="img/interaksjonsdesign.png">
+                    <img class="image-fit" src="img/interaksjonsdesign.png" alt="Image of the furniture app prototype">
                 </div>
                 <!--This container holds the text.Sets the size,font and color of the text.Has position absolute -->
                 <div class="text-work">
@@ -96,8 +100,6 @@
                     </p>
                     <!--This container holds the hyperlynk button to the prototype in Figma. -->
 
-                    <!--a href="https://www.figma.com/proto/K0xFACAk3Rpqk1qMivZfE3/Untitled?page-id=0%3A1&node-id=2%3A63&viewport=241%2C48%2C0.2&scaling=scale-down&starting-point-node-id=2%3A63&show-proto-sidebar=1"
-                        class="button">Prototype</a-->
                 </div>
             </div>
         </div>
@@ -107,11 +109,11 @@
         <div class="socialmedia-container">
             <a href="https://www.instagram.com/carolinemartinussen_/">
                 <!-- This img tag has a class that is setting the size of the instagram image-->
-                <img class="socialmedia-icon" src="img/instagram 1.svg" />
+                <img class="socialmedia-icon" alt="link to instagram.com" src="img/instagram 1.svg" />
             </a>
             <a href="https://www.linkedin.com/in/caroline-martinussen-819a98226/">
                 <!-- This img tag has a class that is setting the size of the linkedin image-->
-                <img class="socialmedia-icon" src="img/linkedin.svg" />
+                <img class="socialmedia-icon" alt="link to linkedin.com" src="img/linkedin.svg" />
             </a>
         </div>
 </body>

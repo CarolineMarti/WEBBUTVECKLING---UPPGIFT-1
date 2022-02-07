@@ -100,6 +100,48 @@ textarea.hascontent ~ label {
     justify-content: space-around;
     height: 100%;
 }
+
+.btn {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background 400ms;
+    color: #fff;
+    background-color: rgba(69, 143, 136, 0.995);
+    padding: 8px 24px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-flat {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: #343434;
+    cursor: pointer;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+}
+
+
+.btn.button-ripple {
+    background-position: center;
+    transition: background 0.3s;
+}
+
+.btn.button-ripple:hover {
+    background: #e3eaf0 radial-gradient(circle, transparent 1%, rgb(47, 185, 187) 1%) center/15000%;
+}
+
+.btn.button-ripple:active {
+    background-color: #b4ddff;
+    background-size: 100%;
+    transition: background 0s;
+}
  
 @keyframes button-ripple {
     to {

@@ -21,7 +21,7 @@ ul {
     max-width: 100%;
     max-height: 100%;
 }
-
+/*
 .btn {
     position: relative;
     cursor: pointer;
@@ -55,7 +55,7 @@ ul {
 }
 
 .btn.button-ripple:hover {
-    background: #b4ddff radial-gradient(circle, transparent 1%, #fff 1%) center/15000%;
+    background: #053e6d radial-gradient(circle, transparent 1%, #fff 1%) center/15000%;
 }
 
 .btn.button-ripple:active {
@@ -63,7 +63,7 @@ ul {
     background-size: 100%;
     transition: background 0s;
 }
-
+*/
 .flex-center {
     display: flex;
     align-items: center;
@@ -93,7 +93,7 @@ ul {
     align-items: center;
     order: 1;
 
-    height: 8%;
+    height: 10%;
 
     font-family: Six Caps;
     font-style: normal;
@@ -120,7 +120,7 @@ ul {
     align-items: center;
     flex-direction: row;
     order: 3;
-    height: 254px;
+    height: 90px;
 }
 
 .socialmedia-icon {
@@ -296,6 +296,14 @@ ul {
 
     .nav-link {
         font-weight: 400;
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+    .selected-link {
+        color: white;
+        text-decoration: underline;
     }
     
     .only-mobile {

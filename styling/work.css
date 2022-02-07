@@ -9,14 +9,14 @@
 
 .text-work {
 
-    width: 60%;
-    height: 28%;
+    width: 40%;
+    height: 35%;
 
     font-family: "Roboto", "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 160%;
-    line-height: 85%;
+    font-size: 115%;
+    line-height: 150%;
 
     color: black;
 }
