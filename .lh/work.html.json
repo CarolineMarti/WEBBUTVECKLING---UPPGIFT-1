@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 10,
+            "activePatchIndex": 13,
             "patches": [
                 {
                     "date": 1644165808263,
@@ -48,6 +48,18 @@
                 {
                     "date": 1644187933468,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,15 +60,15 @@\n                                 <img src=\"./img/navigate_next_black_24dp.svg\">\n                             </span>\n                         </li>\n                         <li>\n-                            <a class=\"nav-link  selected-link\" href=\"work.html\">Work</a>\n+                            <a class=\"nav-link selected-link\" href=\"work.html\">Work</a>\n                             <span>\n                                 <img src=\"./img/navigate_next_black_24dp.svg\">\n                             </span>\n                         </li>\n                         <li>\n-                            <a class=\"nav-link selected-link\" href=\"contact.html\">Contact</a>\n+                            <a class=\"nav-link\" href=\"contact.html\">Contact</a>\n                             <span>\n                                 <img src=\"./img/navigate_next_black_24dp.svg\">\n                             </span>\n                         </li>\n"
+                },
+                {
+                    "date": 1644192146698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n                 <div class=\"nav-links\">\n                     <!--This navigation link is selected and has its own styling-->\n                     <ul class=\"not-mobile\">\n                         <li><a class=\"nav-link selected-link\" href=\"index.html\">Home</a></li>\n-                        <li><a class=\"nav-link\" href=\"work.html\">Work</a></li>\n+                        <li><a class= href=\"work.html\">Work</a></li>\n                         <li><a class=\"nav-link\" href=\"contact.html\">Contact</a></li>\n                         <li><a class=\"nav-link\" href=\"about.html\">About</a></li>\n                     </ul>\n \n"
+                },
+                {
+                    "date": 1644192167946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,10 +36,10 @@\n                 <!-- This container holds the links and uses flexbox with space around the links-->\n                 <div class=\"nav-links\">\n                     <!--This navigation link is selected and has its own styling-->\n                     <ul class=\"not-mobile\">\n-                        <li><a class=\"nav-link selected-link\" href=\"index.html\">Home</a></li>\n-                        <li><a class= href=\"work.html\">Work</a></li>\n+                        <li><a class= href=\"index.html\">Home</a></li>\n+                        <li><a class=\"nav-link selected-link\" href=\"work.html\">Work</a></li>\n                         <li><a class=\"nav-link\" href=\"contact.html\">Contact</a></li>\n                         <li><a class=\"nav-link\" href=\"about.html\">About</a></li>\n                     </ul>\n \n"
+                },
+                {
+                    "date": 1644194998229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n                 <!-- This container holds the links and uses flexbox with space around the links-->\n                 <div class=\"nav-links\">\n                     <!--This navigation link is selected and has its own styling-->\n                     <ul class=\"not-mobile\">\n-                        <li><a class= href=\"index.html\">Home</a></li>\n+                        <li><a class=\"nav-link\" href=\"index.html\">Home</a></li>\n                         <li><a class=\"nav-link selected-link\" href=\"work.html\">Work</a></li>\n                         <li><a class=\"nav-link\" href=\"contact.html\">Contact</a></li>\n                         <li><a class=\"nav-link\" href=\"about.html\">About</a></li>\n                     </ul>\n@@ -61,11 +61,8 @@\n                             </span>\n                         </li>\n                         <li>\n                             <a class=\"nav-link selected-link\" href=\"work.html\">Work</a>\n-                            <span>\n-                                <img src=\"./img/navigate_next_black_24dp.svg\">\n-                            </span>\n                         </li>\n                         <li>\n                             <a class=\"nav-link\" href=\"contact.html\">Contact</a>\n                             <span>\n"
                 }
             ],
             "date": 1644165808263,

@@ -185,7 +185,7 @@ ul {
 .container {
     position: absolute;
     width: 700px;
-    height: 300px;
+    height: 700px;
     left: 180px;
     top: 352px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -275,11 +275,20 @@ ul {
     }
 
     .nav-drawer {padding-top: 15px;}
-    .nav-drawer a {font-size: 25px;}
+    .nav-drawer a {
+        font-size: 25px;
+        width: 253px;
+    }
 
     .nav-drawer li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         margin: 3px;
         border-bottom: 1px solid #3b3c37;
+    } 
+    .nav-drawer li span {
+        align-self: center;
     }
     .nav-drawer ul {
         padding: 0 11px;
